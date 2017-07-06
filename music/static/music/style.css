@@ -1,6 +1,7 @@
-body{
+body {
     background: white url("images/background.jpg");
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: 'Satisfy', cursive;
 }
