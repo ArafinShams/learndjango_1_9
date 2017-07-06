@@ -1,7 +1,6 @@
 {% extends 'music/base.html' %}
+
 {% block body %}
-    {% if all_albums %}
-        <h3>Here are all my Albums</h3>
         <ul>
             {% for album in all_albums %}
                 <li>
@@ -9,7 +8,5 @@
                 </li>
             {% endfor %}
         </ul>
-    {% else %}
-        <h3>You don't have any albums</h3>
-    {% endif %}
+
 {% endblock %}
